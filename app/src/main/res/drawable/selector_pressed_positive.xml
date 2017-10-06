@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:state_activated="true"
+        android:drawable="@drawable/muscle2grad1"/>
+    <item android:state_pressed="true" android:state_activated="true"
+        android:drawable="@drawable/muscle2grad3"/>
+
+
+    <item android:state_pressed="false" android:state_activated="false"
+        android:drawable="@drawable/muscle2grad2"/>
+    <item android:state_pressed="true" android:state_activated="false"
+        android:drawable="@drawable/muscle2grad3"/>
+    
+</selector>
